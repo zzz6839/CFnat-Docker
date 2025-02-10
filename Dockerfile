@@ -53,7 +53,7 @@ ENV colo="SJC,LAX,HKG" \
     domain="cloudflaremirrors.com/debian"
 
 # 暴露 1234 端口
-EXPOSE 1234
+EXPOSE 4567
 
 # 运行 go.sh 脚本
 CMD ["/bin/sh", "./go.sh"]
